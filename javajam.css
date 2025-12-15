@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCEBB6;
+    color: #221811; /*text color*/
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url('background.gif');
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px; /*the height of the element*/
+    background-image: url('javajamlogo.jpg');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+h1 {
+    /*line-height: 200%; line spacing, Double spacing*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    width: 200px;
+    float: left; /*to float an element on the left side of the container*/
+    display: block;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size:  .60em;
+    font-style: italic;
+    text-align:  center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    display: block;
+}
+
+#wrapper {
+    width: 80%; /*the witdh of the content of an element*/
+    margin-right: auto;
+    margin-left: auto; /*configure the space on the right margin of an element*/
+    background-color: #231814;
+    min-width: 900px; /*configure a min witdh for an emelent*/
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px 5px #333333;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color :red
+}
+
+nav a:hover {
+    color :#CC9933
+}
+
+nav ul {
+    list-style-type: none; /*remove the link marker*/
+    padding-left: 0;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #231814;
+    clear: left; /*often use to terminate or clear a float*/
+}
+
+main {
+    padding: 0em 0em 2em 0em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display: block;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto; /*oftem used mto clear a float, although its itended purpose is to configure now content should display if it is too larger for the area allocated,Auto = if needed, scrollbar are displayed to allow access to the remaining content. */
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#heroroad {
+    background-image: url('heroroad.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url('heromugs.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url('heroguitar.jpg');
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+main h2 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+main h3 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+main h4 {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+main p {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+main div {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+main ul  {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+main dl {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+td, th {
+    padding: 10px; /*to all sides*/
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48C;
+}
+
+form {
+    padding: 2em;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+#herojobs {
+    height: 250px;
+    background-image: url('herojobs.jpg');
+    background-size: 100% 100%;
+}
